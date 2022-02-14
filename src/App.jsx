@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    <h1>Rocket-movie</h1></>
-  )
+    <div className="container">
+      <h1>Rocket-movie</h1>
+    </div>
+  );
 }
 
-export default App
+export default App;
