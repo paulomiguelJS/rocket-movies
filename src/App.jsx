@@ -1,12 +1,12 @@
 import React from "react";
-import Home from "./pages/Home";
+import RoutesApp from "./Routes/routes";
 
 import { Container } from "./styles/Container";
 
 const App = () => {
   return (
     <Container>
-      <Home />
+      <RoutesApp />
     </Container>
   );
 };
