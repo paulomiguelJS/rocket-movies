@@ -1,5 +1,5 @@
 import React from "react";
-
+import mov from "../../assets/test.jpg";
 import { MoviesContainer } from "./styles";
 
 const Movies = ({title, description}) => {
@@ -7,10 +7,10 @@ const Movies = ({title, description}) => {
     <>
       <MoviesContainer>
         <div>
-          <img src="" alt="IMAGEM" />
+          <img src={mov} alt="IMAGEM" />
         </div>
         <div>
-          <h1>{title}</h1>
+          <h2>{title}</h2>
           <p>{description}</p>
         </div>
       </MoviesContainer>

@@ -11,7 +11,7 @@ const Home = () => {
         <img src={shuffle} alt="Suffle" />
         <h1>Nao sabe o que assitir?</h1>
         <Movies
-          title="TITULO SERIO"
+          title="A volta dos que nao foram"
           description="Em Nova York Peter Venkman, Ray Stantz e Egon Spengler são três
 cientistas do departamento de psicologia da Columbia University, que
 se dedicam ao estudo de casos paranormais. Quando a subvenção
