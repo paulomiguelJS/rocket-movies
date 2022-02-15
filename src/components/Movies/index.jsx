@@ -1,9 +1,21 @@
-import React from 'react'
+import React from "react";
 
-const Movies = () => {
+import { MoviesContainer } from "./styles";
+
+const Movies = ({title, description}) => {
   return (
-    <div>Movies</div>
-  )
-}
+    <>
+      <MoviesContainer>
+        <div>
+          <img src="" alt="IMAGEM" />
+        </div>
+        <div>
+          <h1>{title}</h1>
+          <p>{description}</p>
+        </div>
+      </MoviesContainer>
+    </>
+  );
+};
 
-export default Movies
+export default Movies;

@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
   --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
 }
 
-  * {
+* {
       margin: 0;
       padding: 0;
 
@@ -20,5 +20,3 @@ body{
     background: var(--background);
   }
     `;
-
-
