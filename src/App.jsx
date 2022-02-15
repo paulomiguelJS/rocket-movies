@@ -1,11 +1,13 @@
-import "./App.css";
+import React from "react";
 
-function App() {
+import { Container } from "./styles/Container";
+
+const App = () => {
   return (
-    <div className="container">
-      <h1>Rocket-movie</h1>
-    </div>
+    <Container>
+      <h1>Teste</h1>
+    </Container>
   );
-}
+};
 
 export default App;
