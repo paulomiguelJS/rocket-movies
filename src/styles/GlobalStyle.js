@@ -11,6 +11,11 @@ export const GlobalStyle = createGlobalStyle`
   font-family: 'Poppins', sans-serif;;
 }
 
+html { 
+      background: var(--background) no-repeat center fixed; 
+      background-size:cover;
+}
+
 * {
       margin: 0;
       padding: 0;
@@ -18,7 +23,5 @@ export const GlobalStyle = createGlobalStyle`
       box-sizing: border-box;
   }
 
-body{
-    background: var(--background), no-repeat;
-  }
+ 
     `;

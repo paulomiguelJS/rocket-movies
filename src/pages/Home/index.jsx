@@ -2,8 +2,7 @@ import React from "react";
 import Movies from "../../components/Movies";
 import shuffle from "../../assets/shuffle.svg";
 import { MainContent } from "./styles";
-import { AleatoryBtn } from "../../components/Button/styles";
-
+import Button from "../../components/Button";
 const Home = () => {
   return (
     <>
@@ -21,8 +20,11 @@ eles só têm despesas e nenhum cliente, mas eis que surge Dana
 Barrett, uma violoncelista que teve uma experiência assustadora em
 seu apartamento."
         />
-
-        <AleatoryBtn />
+        <Button title="Encontrar Filme"/>
+        <span>
+          Clique em "Encontrar filme" que  traremos informações <br /> de algum filme
+          para você assistir hoje.
+        </span>
       </MainContent>
     </>
   );

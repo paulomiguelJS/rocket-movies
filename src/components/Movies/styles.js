@@ -2,46 +2,42 @@ import styled from "styled-components";
 
 export const MoviesContainer = styled.div`
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
 
   padding: 1rem;
   gap: 4rem;
   color: #fff;
 
-  width: 60%;
+  width: 90%;
 
-
-  border: 1px solid red;
-
-  h2{
+  h2 {
     font-weight: bold;
     font-size: 20px;
-}
+  }
 
-p{
-  font-size: 12px;
-  line-height: 20px;
+  p {
+    font-size: 12px;
+    line-height: 20px;
 
-  margin-top: 1rem;
-}
+    margin-top: 1rem;
+  }
 
-  img{
+  img {
     display: block;
-      border: 1px solid red;
-      width: 100%;
-      min-width: 160px;
+
+    width: 100%;
+
+    min-width: 160px;
+    max-width: 160px;
+
+    margin-bottom: 1rem;
+
+
   }
 
-  media(max-width: 840px) {
-
-    
-
-    img{
-
-    border: 1px solid green;
-    }
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  gap: 1rem;
   }
-
-
 `;
