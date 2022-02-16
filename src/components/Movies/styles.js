@@ -34,6 +34,12 @@ export const MoviesContainer = styled.div`
 
   @media only screen and (max-width: 600px) {
     flex-direction: column;
+    align-items: center;
   gap: 1rem;
+  }
+
+  img{
+    max-width: 160px;
+    margin-bottom: 2rem;
   }
 `;
