@@ -23,5 +23,8 @@ html {
       box-sizing: border-box;
   }
 
- 
+ img{
+   display: block;
+   
+ }
     `;

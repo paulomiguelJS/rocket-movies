@@ -5,6 +5,8 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 
+margin-top: 3rem;
+
 background-color: #E9E6E3;
 color: #1A1A1A;
 

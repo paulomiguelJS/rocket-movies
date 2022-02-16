@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const MoviesContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: center;
 
+  margin-top: 3rem;
   padding: 1rem;
   gap: 4rem;
   color: #fff;
 
-  width: 90%;
+  width: 100%;
 
   h2 {
     font-weight: bold;
@@ -17,7 +17,7 @@ export const MoviesContainer = styled.div`
   }
 
   p {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 20px;
 
     margin-top: 1rem;
@@ -27,13 +27,9 @@ export const MoviesContainer = styled.div`
     display: block;
 
     width: 100%;
+    min-width: 260px;
 
-    min-width: 160px;
-    max-width: 160px;
-
-    margin-bottom: 1rem;
-
-
+    margin: 0;
   }
 
   @media only screen and (max-width: 600px) {

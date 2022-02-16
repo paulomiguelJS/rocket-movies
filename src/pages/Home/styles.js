@@ -9,14 +9,14 @@ export const MainContent = styled.div`
   height: 100vh;
 
   img {
-    margin-top: 1rem;
+    margin-top: 3rem;
   }
 
   h1 {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 40px;
     color: #fff;
-    margin-top: 1rem;
+    margin-top: 3rem;
     text-align: center;
   }
 
