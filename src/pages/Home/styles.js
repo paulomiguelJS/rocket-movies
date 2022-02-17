@@ -8,7 +8,7 @@ export const MainContent = styled.div`
   width: 100%;
   height: 100vh;
 
-  img {
+  .logo {
     margin-top: 3rem;
   }
 

@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <>
       <MainContent>
-        <img src={shuffle} alt="Suffle" />
+        <img className="logo" src={shuffle} alt="Suffle" />
         <h1>Nao sabe o que assitir?</h1>
         <Movies
           title=""

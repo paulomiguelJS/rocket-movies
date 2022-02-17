@@ -12,4 +12,4 @@ export const api = {
   },
 };
 
-/*https://api.themoviedb.org/3/movie/76341?api_key=559e0716959e653ce25f7d162bdb410b*/
+

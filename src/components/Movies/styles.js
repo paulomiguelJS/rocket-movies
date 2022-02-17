@@ -43,6 +43,5 @@ export const MoviesContainer = styled.div`
 
   img {
     max-width: 160px;
-    margin-bottom: 2rem;
   }
 `;

@@ -19,7 +19,7 @@ font-size: 12px;
 
 cursor: pointer;
 
-img{
+.img-btn{
     margin: 0;
 }
 
