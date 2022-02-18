@@ -1,13 +1,12 @@
 import React from "react";
-import mov from "../../assets/test.jpg";
 import { MoviesContainer } from "./styles";
 
-const Movies = ({title, description}) => {
+const Movies = ({poster, alt, title, description}) => {
   return (
     <>
       <MoviesContainer>
         <div>
-          <img src={mov} alt="IMAGEM" />
+          <img src={poster} alt={alt} />
         </div>
         <div>
           <h2>{title}</h2>

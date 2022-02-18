@@ -7,32 +7,38 @@ import { api } from "../../services/api";
 
 const Home = () => {
 
- 
+  const IMG = "https://image.tmdb.org/t/p/w1280"
+
+  const [movie, setMovie] = useState([]);
 
   useEffect(() => {
-    loadMovie()
-  }, [])
+    getMovie();
+  }, []);
 
 
-  const loadMovie = async () => {
-    let data = await api.getMovie()
-  }
+  
 
- 
-
+  const getMovie = async () => {
+    let data = await api.getMovie();
+    setMovie(data);
+  };
+  
+  
   return (
     <>
       <MainContent>
         <img className="logo" src={shuffle} alt="Suffle" />
         <h1>Nao sabe o que assitir?</h1>
         <Movies
-          title=""
-          description=""
+          poster={IMG + movie.poster_path} alt={movie.title}
+          title={movie.title}
+          description={movie.overview}
         />
-        <Button  title="Encontrar Filme"/>
+        <Button onClick={() => console.log("clicou")} title="Encontrar Filme" />
+        
         <span>
-          Clique em "Encontrar filme" que  traremos informações <br /> de algum filme
-          para você assistir hoje.
+          Clique em "Encontrar filme" que traremos informações <br /> de algum
+          filme para você assistir hoje.
         </span>
       </MainContent>
     </>

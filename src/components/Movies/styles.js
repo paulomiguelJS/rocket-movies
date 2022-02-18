@@ -4,8 +4,9 @@ export const MoviesContainer = styled.div`
   display: flex;
   justify-content: space-between;
 
-  margin-top: 2rem;
+  margin: 3rem 0;
   padding: 1rem;
+
   gap: 4rem;
   color: #fff;
 
@@ -14,6 +15,8 @@ export const MoviesContainer = styled.div`
   h2 {
     font-weight: bold;
     font-size: 20px;
+
+    margin-top: 2rem;
   }
 
   p {
