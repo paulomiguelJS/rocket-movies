@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Button = styled.button`
 display: flex;
 align-items: center;
-justify-content: space-around;
+justify-content: center;
 
 
 background-color: #E9E6E3;
@@ -20,7 +20,7 @@ font-weight: bold;
 cursor: pointer;
 
 .img-btn{
-    margin: 0;
+    margin: 0 10px 0 0;
 }
 
 
