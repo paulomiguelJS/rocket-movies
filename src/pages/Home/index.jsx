@@ -9,7 +9,7 @@ const Home = () => {
 
   const IMG = "https://image.tmdb.org/t/p/w1280"
 
-  const [movie, setMovie] = useState([]);
+  const [movie, setMovie] = useState([87]);
 
   useEffect(() => {
     getMovie();
@@ -20,9 +20,9 @@ const Home = () => {
 
   const getMovie = async () => {
     let data = await api.getMovie();
+    
     setMovie(data);
   };
-  
   
   return (
     <>
@@ -34,7 +34,7 @@ const Home = () => {
           title={movie.title}
           description={movie.overview}
         />
-        <Button onClick={() => console.log("clicou")} title="Encontrar Filme" />
+        <Button onClick={getMovie} title="Encontrar Filme" />
         
         <span>
           Clique em "Encontrar filme" que traremos informações <br /> de algum
