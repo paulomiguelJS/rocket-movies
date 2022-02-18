@@ -9,12 +9,13 @@ justify-content: space-around;
 background-color: #E9E6E3;
 color: #1A1A1A;
 
-width: 170px;
+width: 220px;
 height: 50px;
-min-height: 40px;
+min-height: 50px;
 border-radius: 5px;
 
-font-size: 12px;
+font-size: 16px;
+font-weight: bold;
 
 cursor: pointer;
 
