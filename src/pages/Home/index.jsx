@@ -18,7 +18,6 @@ const Home = () => {
   const getMovie = async () => {
     let data = await api.getMovie();
     setMovie(data);
-    console.log(data);
   };
 
   return (

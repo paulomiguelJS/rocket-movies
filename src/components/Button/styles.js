@@ -1,26 +1,30 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  background-color: var(--bg-button);
+  color: var(--color-button);
 
-background-color: #E9E6E3;
-color: #1A1A1A;
+  width: 220px;
+  height: 50px;
+  min-height: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
 
-width: 220px;
-height: 50px;
-min-height: 50px;
-border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
 
-font-size: 16px;
-font-weight: bold;
+  cursor: pointer;
 
-cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+  }
 
-.img-btn{
-    margin-right:10px;
-}
-
-`
+  .img-btn {
+    margin-right: 10px;
+  }
+`;

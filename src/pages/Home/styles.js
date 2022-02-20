@@ -15,7 +15,7 @@ export const MainContent = styled.div`
   h1 {
     font-weight: bold;
     font-size: 40px;
-    color: #fff;
+    color: var(--title);
     margin-top: 3rem;
     text-align: center;
   }
@@ -28,6 +28,7 @@ export const MainContent = styled.div`
     font-weight: 400;
     text-align: center;
 
-    color: #fff;
+    color: var(--title);
+    
   }
 `;

@@ -8,7 +8,7 @@ export const MoviesContainer = styled.div`
   padding: 1rem;
 
   gap: 4rem;
-  color: #fff;
+  color: var(--title);
 
   width: 100%;
 
