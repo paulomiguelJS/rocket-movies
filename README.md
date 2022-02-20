@@ -24,6 +24,7 @@
     <li><a href="https://create-react-app.dev/" target="_blank">React</a></li>
     <li><a href="https://reactrouter.com/" target="_blank">React Router</a></li>
     <li><a href="https://styled-components.com/" target="_blank">Styled Components</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" target="_blank">FETCH</a></li>
     <li><a href="https://www.themoviedb.org/" target="_blank">The Movie DB  - API</a></li>
     <li><a href="https://vitejs.dev/" target="_blank">Vite</a></li>
 
