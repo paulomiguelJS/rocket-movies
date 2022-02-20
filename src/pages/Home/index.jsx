@@ -24,7 +24,7 @@ const Home = () => {
     <>
       <MainContent>
         <img className="logo" src={shuffle} alt="Suffle" />
-        <h1>g</h1>
+        <h1>Not Sure what to Watch?</h1>
         {movie.status ? (
           <Movies
             poster={IMG + movie.poster_path}
