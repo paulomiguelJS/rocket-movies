@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Movies from "../../components/Movies";
 import shuffle from "../../assets/shuffle.svg";
 import study from "../../assets/study.svg";
-
 import { MainContent } from "./styles";
 import Button from "../../components/Button";
 import { api } from "../../services/api";

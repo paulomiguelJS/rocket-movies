@@ -12,6 +12,17 @@ export const MoviesContainer = styled.div`
 
   width: 100%;
 
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeft 0.3s forwards;
+
+  @keyframes animeLeft {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
+
   h2 {
     font-weight: bold;
     font-size: 20px;
